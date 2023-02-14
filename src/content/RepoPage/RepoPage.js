@@ -1,6 +1,6 @@
 import React from 'react';
-import RepoTable from './RepoTable';
 import { Grid, Column } from '@carbon/react';
+import RepoTable from './RepoTable';
 
 const headers = [
   {
@@ -58,7 +58,6 @@ const rows = [
     links: 'Links',
   },
 ];
-
 const RepoPage = () => {
   return (
     <Grid className="repo-page">
